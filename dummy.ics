@@ -103,4 +103,68 @@ DESCRIPTION:Sample multi-day event
 LOCATION:Venue B
 END:VEVENT
 
+###################################
+# DECEMBER EVENTS
+###################################
+
+BEGIN:VEVENT
+UID:dec-single-1@example.com
+DTSTAMP:20250101T000000Z
+DTSTART;TZID=Asia/Jakarta:20251204T090000
+DTEND;TZID=Asia/Jakarta:20251204T110000
+SUMMARY:December Kickoff Meeting
+DESCRIPTION:Monthly planning discussion
+LOCATION:Room B
+END:VEVENT
+
+BEGIN:VEVENT
+UID:dec-single-2@example.com
+DTSTAMP:20250101T000000Z
+DTSTART;TZID=Asia/Jakarta:20251210T130000
+DTEND;TZID=Asia/Jakarta:20251210T150000
+SUMMARY:Holiday Preparation Briefing
+DESCRIPTION:Year-end operational planning
+LOCATION:Zoom Call
+END:VEVENT
+
+BEGIN:VEVENT
+UID:dec-single-3@example.com
+DTSTAMP:20250101T000000Z
+DTSTART;TZID=Asia/Jakarta:20251219T140000
+DTEND;TZID=Asia/Jakarta:20251219T160000
+SUMMARY:End of Year Review
+DESCRIPTION:Performance and achievement review
+LOCATION:Auditorium C
+END:VEVENT
+
+BEGIN:VEVENT
+UID:dec-single-4@example.com
+DTSTAMP:20250101T000000Z
+DTSTART;TZID=Asia/Jakarta:20251228T090000
+DTEND;TZID=Asia/Jakarta:20251228T103000
+SUMMARY:Year Closing Wrap-up
+DESCRIPTION:Final administrative cleanup
+LOCATION:Room B
+END:VEVENT
+
+BEGIN:VEVENT
+UID:dec-multi-1@example.com
+DTSTAMP:20250101T000000Z
+DTSTART;VALUE=DATE:20251215
+DTEND;VALUE=DATE:20251218
+SUMMARY:December Multi-Day Event
+DESCRIPTION:3-Day working group collaboration
+LOCATION:Workshop Center
+END:VEVENT
+
+BEGIN:VEVENT
+UID:dec-multi-2@example.com
+DTSTAMP:20250101T000000Z
+DTSTART;VALUE=DATE:20251224
+DTEND;VALUE=DATE:20251227
+SUMMARY:Christmas Break Event
+DESCRIPTION:Holiday period program
+LOCATION:Company Campus
+END:VEVENT
+
 END:VCALENDAR

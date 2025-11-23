@@ -93,4 +93,44 @@ DESCRIPTION:5-day innovation sprint event
 LOCATION:Jakarta Tech Hub
 END:VEVENT
 
+BEGIN:VEVENT
+UID:event-d1@example.com
+DTSTAMP:20250101T000000Z
+DTSTART;TZID=Asia/Jakarta:20251203T100000
+DTEND;TZID=Asia/Jakarta:20251203T120000
+SUMMARY:Project Planning Review
+DESCRIPTION:Finalize planning for next phase
+LOCATION:Ruang Melati
+END:VEVENT
+
+BEGIN:VEVENT
+UID:event-d2@example.com
+DTSTAMP:20250101T000000Z
+DTSTART;TZID=Asia/Jakarta:20251210T140000
+DTEND;TZID=Asia/Jakarta:20251210T163000
+SUMMARY:UX Research Workshop
+DESCRIPTION:User interview results and insight sharing
+LOCATION:Zoom Online
+END:VEVENT
+
+BEGIN:VEVENT
+UID:event-d3@example.com
+DTSTAMP:20250101T000000Z
+DTSTART;TZID=Asia/Jakarta:20251218T090000
+DTEND;TZID=Asia/Jakarta:20251218T113000
+SUMMARY:Final Stakeholder Presentation
+DESCRIPTION:End-of-year milestone presentation
+LOCATION:Auditorium Besar
+END:VEVENT
+
+BEGIN:VEVENT
+UID:event-d4@example.com
+DTSTAMP:20250101T000000Z
+DTSTART;TZID=Asia/Jakarta:20251223T150000
+DTEND;TZID=Asia/Jakarta:20251223T180000
+SUMMARY:Year-End Celebration
+DESCRIPTION:Annual celebration and team recognition
+LOCATION:Grand Ballroom
+END:VEVENT
+
 END:VCALENDAR
